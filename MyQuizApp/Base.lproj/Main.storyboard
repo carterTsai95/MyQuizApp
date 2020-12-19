@@ -48,8 +48,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="trueBtnDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="35y-hA-oat"/>
-                                    <action selector="trutBtnDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="968-g4-ZXk"/>
+                                    <action selector="trueBtnDidTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sg5-T2-yBS"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pvZ-6H-ETG">
