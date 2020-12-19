@@ -13,6 +13,7 @@
 		2BABE4DA258D631A00193C32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BABE4D8258D631A00193C32 /* Main.storyboard */; };
 		2BABE4DC258D631B00193C32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BABE4DB258D631B00193C32 /* Assets.xcassets */; };
 		2BABE4DF258D631B00193C32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BABE4DD258D631B00193C32 /* LaunchScreen.storyboard */; };
+		2BABE4EC258D643C00193C32 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BABE4EB258D643C00193C32 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2BABE4DB258D631B00193C32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BABE4DE258D631B00193C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BABE4E0258D631B00193C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BABE4EB258D643C00193C32 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2BABE4DB258D631B00193C32 /* Assets.xcassets */,
 				2BABE4DD258D631B00193C32 /* LaunchScreen.storyboard */,
 				2BABE4E0258D631B00193C32 /* Info.plist */,
+				2BABE4EB258D643C00193C32 /* Model.swift */,
 			);
 			path = MyQuizApp;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = "Hung-Chun";
 				TargetAttributes = {
 					2BABE4CE258D631A00193C32 = {
 						CreatedOnToolsVersion = 12.2;
@@ -140,6 +144,7 @@
 				2BABE4D7258D631A00193C32 /* ViewController.swift in Sources */,
 				2BABE4D3258D631A00193C32 /* AppDelegate.swift in Sources */,
 				2BABE4D5258D631A00193C32 /* SceneDelegate.swift in Sources */,
+				2BABE4EC258D643C00193C32 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
