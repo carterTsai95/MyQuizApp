@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B8C309B2652CE5100C2CC0F /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C30982652CE5100C2CC0F /* 01.png */; };
+		2B8C309C2652CE5100C2CC0F /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C30992652CE5100C2CC0F /* 03.png */; };
+		2B8C309D2652CE5100C2CC0F /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8C309A2652CE5100C2CC0F /* 02.png */; };
 		2BABE4D3258D631A00193C32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BABE4D2258D631A00193C32 /* AppDelegate.swift */; };
 		2BABE4D5258D631A00193C32 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BABE4D4258D631A00193C32 /* SceneDelegate.swift */; };
 		2BABE4D7258D631A00193C32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BABE4D6258D631A00193C32 /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B8C30982652CE5100C2CC0F /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		2B8C30992652CE5100C2CC0F /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		2B8C309A2652CE5100C2CC0F /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
 		2BABE4CF258D631A00193C32 /* MyQuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyQuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BABE4D2258D631A00193C32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BABE4D4258D631A00193C32 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +45,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B8C30972652CE5100C2CC0F /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				2B8C30982652CE5100C2CC0F /* 01.png */,
+				2B8C30992652CE5100C2CC0F /* 03.png */,
+				2B8C309A2652CE5100C2CC0F /* 02.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		2BABE4C6258D631A00193C32 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +74,7 @@
 		2BABE4D1258D631A00193C32 /* MyQuizApp */ = {
 			isa = PBXGroup;
 			children = (
+				2B8C30972652CE5100C2CC0F /* Screenshots */,
 				2BABE4D2258D631A00193C32 /* AppDelegate.swift */,
 				2BABE4D4258D631A00193C32 /* SceneDelegate.swift */,
 				2BABE4D6258D631A00193C32 /* ViewController.swift */,
@@ -128,9 +145,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8C309C2652CE5100C2CC0F /* 03.png in Resources */,
 				2BABE4DF258D631B00193C32 /* LaunchScreen.storyboard in Resources */,
 				2BABE4DC258D631B00193C32 /* Assets.xcassets in Resources */,
+				2B8C309B2652CE5100C2CC0F /* 01.png in Resources */,
 				2BABE4DA258D631A00193C32 /* Main.storyboard in Resources */,
+				2B8C309D2652CE5100C2CC0F /* 02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
